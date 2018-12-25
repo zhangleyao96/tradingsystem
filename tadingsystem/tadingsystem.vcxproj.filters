@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\bondservices">
+      <UniqueIdentifier>{c91c6782-1877-41f1-805c-4ab1d9c29b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\globalfunctions">
+      <UniqueIdentifier>{063c1664-0676-4515-b71b-ee9fc745dc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bondservices\historicaldataservices">
+      <UniqueIdentifier>{9d01689c-a1f4-4e8b-8413-687cd7a25652}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="system.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="soaservices\executionservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\inquiryservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\marketdataservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\positionservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\products.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\riskservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\soa.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\streamingservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\tradebookingservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\pricingservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bondpricingservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="globalfunctions.h">
+      <Filter>头文件\globalfunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondalgostreamingservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondstreamingservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="historicalforstreaming.h">
+      <Filter>头文件\bondservices\historicaldataservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondtradebookingservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondpositionservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondriskservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="historicalposition.h">
+      <Filter>头文件\bondservices\historicaldataservices</Filter>
+    </ClInclude>
+    <ClInclude Include="historicalrisk.h">
+      <Filter>头文件\bondservices\historicaldataservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondmarketdataservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondalgoexcutionservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="historicalexecution.h">
+      <Filter>头文件\bondservices\historicaldataservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondexecutionservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="bondinquiryservice.h">
+      <Filter>头文件\bondservices</Filter>
+    </ClInclude>
+    <ClInclude Include="soaservices\historicaldataservice.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="historicalinquries.h">
+      <Filter>头文件\bondservices\historicaldataservices</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
